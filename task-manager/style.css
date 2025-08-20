@@ -1,0 +1,19 @@
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;   
+  gap: 10px;
+}
+
+
+.list-group-item span {
+  flex: 1;
+  word-wrap: break-word;
+  white-space: normal;
+}
